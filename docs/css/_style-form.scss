@@ -1,0 +1,100 @@
+fieldset
+{
+    label
+    {
+        padding-left: 2em;
+    }
+} 
+
+legend{
+    font-weight: bold;
+  }
+
+.impinfo{
+  font-weight: bold;
+  font-size:  .95em;
+  padding: 0em;
+}
+
+.note{
+  font-weight: normal;
+  font-size: 1.0em;
+}
+
+.uniformchoice, .contract{
+  font-size: .8em;
+}
+
+.announcement{
+text-decoration: underline;
+}
+
+fieldset
+{
+  border:solid 1px green;
+    margin: 2em 0;
+}
+form h3{
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.form-control{
+  width: 100%;
+  border:solid 1px green;
+  margin: 20px 0px 20px 0px;
+}
+
+.inputs-texts
+{
+  width: 100%;
+}
+
+.btn-form
+{
+  width: 40%;
+  margin: 20px 10px;
+  font-weight: bold;
+  color: $color-letra;
+  background-color: white;
+  border: $verde-primario 2px solid;
+}
+
+#form-container
+{
+  min-height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contract 
+{
+    p
+    {
+    font-size: 15px;
+    }
+}
+
+.input-form
+{
+  margin: 5px;
+  padding: 2px;
+  width: 100%;
+}
+
+.modal-content
+{
+  background-color: black;
+  text-align: center;
+  font-weight: 5px;
+  color: white;
+}
+
+.btn-form
+{
+  background-color: $verde-primario;
+  color: white;
+}
