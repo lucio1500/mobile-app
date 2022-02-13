@@ -7,7 +7,8 @@ $color-letra: #35424a;
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap&family=DM+Sans&family=Dancing+Script&family=Quicksand&display=swap');
 
-@mixin flexboxClass () {
+@mixin flexboxClass () 
+{
     display: flex;
     flex-direction: column;
 }
