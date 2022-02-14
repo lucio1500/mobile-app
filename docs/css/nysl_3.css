@@ -104,20 +104,6 @@ hr
   margin-bottom: 5px;
 }
 
-#nav {
-  position: fixed;
-  height: 100vh;
-  width: 10vw;
-  padding: 0;
-  top: 30%;
-  line-height: 150%;
-  z-index: 1;
-  background: white;
-  color: black;
-  font-family: Asap;
-  text-align: center;
-}
-
 .carousel-item
 {
   margin-bottom: 25px;
@@ -413,31 +399,14 @@ form h3{
 }
 
 #videoBG {
-  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  position:absolute;
   z-index: -100;
-  /* margin: -8px; */
-}
-@media (min-aspect-ratio: 16/9) {
-  #videoBG {
-      width:100%;
-      height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9) {
-  #videoBG { 
-      width:auto;
-      height: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  #videoBG {
-    position:fixed;
-    width:auto;
-    height: 100%;
-    z-index: -100;
-    /* margin: -8px; */
-  }
 }
 
 .capa {
@@ -456,9 +425,7 @@ form h3{
 {
   font-family: Quicksand;
   color: white;
-  /* font-weight: bold; */
-  /* margin: -8px; */
-  background:#00000067;
+  background:#0000007c;
   width: 100vw;
   height: 100vh;
   display: flex;
